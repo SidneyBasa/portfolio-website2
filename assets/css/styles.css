@@ -1,0 +1,222 @@
+:root {
+    /* first usage of root in a CSS file for color palette*/
+    --grey: rgb(63, 63, 63);
+    --white: white;
+    --teal: rgb(6, 196, 225);
+    --dark-blue: rgb(39, 43, 81);
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--grey);
+    color: var(--white);
+    justify-content: space-between;
+}
+
+/* Top blue box around header name */
+.header-card {
+    background: var(--teal);
+    color: var(--grey);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: .8rem;
+}
+
+.topcontain {
+    position: static;
+}
+
+.topcard {
+    /* display: flex; */
+    background: var(--teal);
+    /* position: fixed; */
+    position: absolute;
+    /* justify-content: right; */
+    right: 0rem;
+    padding: 8px;
+    margin-top: 1rem;
+    /* margin-left: 50rem; */
+    font-size:larger;
+}
+
+.centercard{
+    display: flex;
+    position: absolute;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background: var(--teal);
+    padding: 1rem;
+    /* margin-top: 4rem; */
+    /* margin-bottom: 4rem; */
+    /* position: fixed; */
+    /* justify-content: left; */
+}
+
+.portfolio {
+    display: flex;
+    width: 20%;
+    border-left: 3px solid var(--dark-blue);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*Top header name Sidney */
+h2 {
+    font-size: 2.5rem;
+    padding: 8px;
+}
+
+/* Top navigation parent class */
+/* Concatenated with footer contact */
+nav ul, ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Child of nav and unordered list, list*/
+/* Concatenated with footer contact */
+nav ul li, li {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1.5rem;
+    font-size: 1.3rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-right: 1.2rem;
+}
+
+/* Top navigation bar links */
+nav a {
+    background-color: unset;
+    color: var(--teal);
+    font-weight:200;
+    text-decoration: underline;
+}
+
+/* Adds a responsive design effect */
+nav a:hover{
+    color: var(--white);
+}
+
+/* This is the new section of the CSS for portfolio website 2*/
+/* Where I replace the usage of aside with horizontal sections */
+.horizontal1, .horizontal2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.centerpiece{
+    width: 100%;
+}
+
+.toppiece{
+    width: 100%
+}
+
+.centerpiece:hover{
+    border: 5px solid var(--teal);
+}
+
+/* Left navigation elements */
+h3 {
+    font-size: 2rem;
+    padding: 12px;
+    margin-right: 10px;
+    color: var(--teal);
+}
+
+
+.h3new {
+    padding: 17px;
+    color: var(--teal);
+    text-decoration: u;
+}
+
+/* Contact Me left ledger*/
+.h4new {
+    padding: 17px;
+    color: var(--teal);
+    text-decoration: none;
+    font-size:200%;
+    margin-top: 5px;
+}
+
+.work {
+    border-left: 3px solid var(--dark-blue);
+    padding-left: 12px;
+    position: relative;
+}
+
+p {
+    display: flex;
+    
+}
+
+/* .doublecard0{
+    position: relative;
+}
+
+.doublecard1{
+    position: absolute;
+} */
+
+.horizontal3 {
+    /* display: flex; */
+    /* padding-left: 1px; */
+    padding-left: 8rem;
+}
+
+.double-work1{ 
+    /* display: flex; */
+    width: 43%;
+    padding-left: 1rem;
+    border-left: 3px solid var(--dark-blue)
+}
+
+.double-work1:hover{
+        border: 5px solid var(--teal);
+}
+
+.double-work2{ 
+    /* display: flex; */
+    width: 43%;
+    padding-left: 1rem;
+    /* border-left: 3px solid var(--dark-blue) */
+}
+
+.double-work2:hover{
+    border: 5px solid var(--teal);
+}
+
+footer {
+    display: flex;
+    background-color: unset;
+    color: var(--teal);
+}
+
+/*Contact links style*/
+.contact {
+    display: flex;
+    margin-top: 10px; 
+    justify-content: space-between;
+    min-width: 1.5rem;
+    padding-right: 20px;
+    
+}
+
+.finish{
+    margin-top: 2.2rem;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.resume {
+    width: 75%;
+    margin-left: 2rem;
+}
+
+/* dv {
+    } */
