@@ -11,4 +11,5 @@ This website has been downloaded from the UW coding bootcamp week 1 module 2 adv
 
 The University of Washington Coding bootcamp
 
-## Source of repository
+## URL of deployed website
+https://sidneybasa.github.io/portfolio-website2/
