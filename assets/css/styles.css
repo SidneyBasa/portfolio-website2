@@ -64,6 +64,16 @@ header {
     max-height: 330px;
 }
 
+/* Header for project 2 card February 16 20223 */
+span {
+    color: blue;
+    padding-left: 250px;
+}
+#project2 {
+    padding-left: 350px;
+}
+
+
 /*Top header name Sidney */
 h2 {
     font-size: 2.5rem;
